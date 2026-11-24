@@ -1,0 +1,409 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-11-23T13:22:42.031Z",
+  "comp": ".impeccable/mocks/comp-3.png",
+  "direction": "bb614e8f",
+  "breakpoint": "768x1376",
+  "artifact": null,
+  "phase": "review",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-11-23T13:22:42.031Z",
+      "closedAt": "2026-11-23T13:32:20.506Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/comp-3.png",
+        "at": "2026-11-23T13:32:20.505Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-11-23T13:32:20.536Z",
+      "closedAt": "2026-11-23T13:34:42.937Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "17 regions, 0 plates, 10 text regions measured",
+        "at": "2026-11-23T13:34:42.937Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-11-23T13:34:42.937Z",
+      "closedAt": "2026-11-23T13:35:23.620Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no plates owed",
+        "at": "2026-11-23T13:35:23.620Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "closed",
+      "openedAt": "2026-11-23T13:35:23.620Z",
+      "closedAt": "2026-11-23T16:30:19.780Z",
+      "attempts": 9,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "hero 81% (match)",
+        "score": 0.8099,
+        "verdict": "match",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": "D:/front end dev/crm-/.impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "spec-grid-bottom drift 57%",
+          "primary-phone drift 58%",
+          "secondary-phone drift 62%"
+        ],
+        "worstIds": [
+          "spec-grid-bottom",
+          "primary-phone",
+          "secondary-phone"
+        ],
+        "worstCrops": [
+          {
+            "id": "spec-grid-bottom",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.5714,
+              "structure": 0.5334,
+              "color": 0.6404,
+              "colorIntersection": 0.4437,
+              "paletteMatch": 0.7463,
+              "detail": 0.6085,
+              "detailRaw": 0.6189,
+              "detailAdded": 0.0208,
+              "bands": 0.5333
+            },
+            "file": ".impeccable/review/diff/hero/regions/spec-grid-bottom.png"
+          },
+          {
+            "id": "primary-phone",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.582,
+              "structure": 0.4485,
+              "color": 0.9211,
+              "colorIntersection": 0.891,
+              "paletteMatch": 0.9373,
+              "detail": 0.5502,
+              "detailRaw": 0.6283,
+              "detailAdded": 0.1563,
+              "bands": 0.45
+            },
+            "file": ".impeccable/review/diff/hero/regions/primary-phone.png"
+          },
+          {
+            "id": "secondary-phone",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.6236,
+              "structure": 0.4873,
+              "color": 0.9321,
+              "colorIntersection": 0.9059,
+              "paletteMatch": 0.9462,
+              "detail": 0.6224,
+              "detailRaw": 0.6901,
+              "detailAdded": 0.1354,
+              "bands": 0.5357
+            },
+            "file": ".impeccable/review/diff/hero/regions/secondary-phone.png"
+          }
+        ],
+        "advisories": [
+          "(advisory, unchanged for 3+ attempts) text spec-grid-top: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape"
+        ],
+        "regionVerdicts": {
+          "overdue-alert-bar": "drift",
+          "coupon-header-bar": "drift",
+          "lead-name-heading": "drift",
+          "verified-badge": "drift",
+          "primary-phone": "drift",
+          "secondary-phone": "drift",
+          "spec-grid-top": "drift",
+          "spec-grid-bottom": "drift",
+          "status-group": "drift",
+          "action-call": "drift",
+          "action-whatsapp": "drift",
+          "action-log-call": "drift",
+          "general-notes-box": "drift",
+          "timeline-heading": "drift",
+          "call-leg-04": "drift",
+          "call-leg-03": "drift",
+          "call-leg-02": "drift"
+        },
+        "at": "2026-11-23T16:30:19.779Z"
+      },
+      "forced": null,
+      "readingsSeen": {
+        "text spec-grid-top: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 6,
+        "text call-leg-04: ink is #112844 in the build, #0b0b0b in the comp; use the comp's colour": 1,
+        "text call-leg-02: its first line starts 19px higher than in the comp (8px vs 27px into the region box); the spacing above it is too small": 1,
+        "text primary-phone: cap height 16.8px in the build, 23.8px in the comp (-29%); set font-size so the cap height renders at 23.8px": 1,
+        "text secondary-phone: cap height 16.8px in the build, 24.2px in the comp (-31%); set font-size so the cap height renders at 24.2px": 1,
+        "text timeline-heading: cap height 14.4px in the build, 20.8px in the comp (-31%); set font-size so the cap height renders at 20.8px": 1,
+        "text spec-grid-top: ink is #080808 in the build, #291e3b in the comp; use the comp's colour": 1,
+        "text spec-grid-bottom: ink is #080808 in the build, #2d243e in the comp; use the comp's colour": 1,
+        "chrome overdue-alert-bar: its rule sits 26px into the box in the comp and 10px in the build (-16px), so the strip is shorter than the comp's; match the height, not only the position": 1,
+        "chrome coupon-header-bar: its rule sits 2px into the box in the comp and 20px in the build (+18px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "text primary-phone: cap height 44.2px in the build, 23.8px in the comp (+86%); set font-size so the cap height renders at 23.8px": 1,
+        "text secondary-phone: cap height 44.3px in the build, 24.2px in the comp (+83%); set font-size so the cap height renders at 24.2px": 1,
+        "text general-notes-box: 3 lines in the build, 4 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 1,
+        "chrome overdue-alert-bar: its rule sits 26px into the box in the comp and 32px in the build (+6px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "text primary-phone: cap height 17.3px in the build, 23.8px in the comp (-27%); set font-size so the cap height renders at 23.8px": 1,
+        "text secondary-phone: cap height 17.3px in the build, 24.2px in the comp (-29%); set font-size so the cap height renders at 24.2px": 1,
+        "text timeline-heading: letter-spacing is wider than the comp's (gap 0.202 vs 0.120 of the cap height); set letter-spacing to close it by about 2px": 1
+      },
+      "history": [
+        {
+          "at": "2026-11-23T14:37:27.568Z",
+          "score": 0.7446,
+          "worstIds": [
+            "general-notes-box",
+            "action-log-call",
+            "spec-grid-top"
+          ],
+          "regionVerdicts": {
+            "overdue-alert-bar": "drift",
+            "coupon-header-bar": "drift",
+            "lead-name-heading": "drift",
+            "verified-badge": "drift",
+            "primary-phone": "drift",
+            "secondary-phone": "drift",
+            "spec-grid-top": "drift",
+            "spec-grid-bottom": "drift",
+            "status-group": "contradicted",
+            "action-call": "drift",
+            "action-whatsapp": "contradicted",
+            "action-log-call": "drift",
+            "general-notes-box": "contradicted",
+            "timeline-heading": "drift",
+            "call-leg-04": "drift",
+            "call-leg-03": "drift",
+            "call-leg-02": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-11-23T14:48:00.767Z",
+          "score": 0.7693,
+          "worstIds": [
+            "overdue-alert-bar",
+            "coupon-header-bar",
+            "timeline-heading"
+          ],
+          "regionVerdicts": {
+            "overdue-alert-bar": "drift",
+            "coupon-header-bar": "contradicted",
+            "lead-name-heading": "drift",
+            "verified-badge": "contradicted",
+            "primary-phone": "drift",
+            "secondary-phone": "drift",
+            "spec-grid-top": "drift",
+            "spec-grid-bottom": "drift",
+            "status-group": "drift",
+            "action-call": "drift",
+            "action-whatsapp": "drift",
+            "action-log-call": "contradicted",
+            "general-notes-box": "drift",
+            "timeline-heading": "contradicted",
+            "call-leg-04": "drift",
+            "call-leg-03": "drift",
+            "call-leg-02": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-11-23T14:57:16.605Z",
+          "score": 0.7926,
+          "worstIds": [
+            "primary-phone",
+            "secondary-phone",
+            "verified-badge"
+          ],
+          "regionVerdicts": {
+            "overdue-alert-bar": "drift",
+            "coupon-header-bar": "drift",
+            "lead-name-heading": "drift",
+            "verified-badge": "contradicted",
+            "primary-phone": "drift",
+            "secondary-phone": "drift",
+            "spec-grid-top": "drift",
+            "spec-grid-bottom": "drift",
+            "status-group": "drift",
+            "action-call": "drift",
+            "action-whatsapp": "drift",
+            "action-log-call": "drift",
+            "general-notes-box": "drift",
+            "timeline-heading": "drift",
+            "call-leg-04": "drift",
+            "call-leg-03": "drift",
+            "call-leg-02": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-11-23T15:03:34.693Z",
+          "score": 0.7945,
+          "worstIds": [
+            "spec-grid-bottom",
+            "verified-badge",
+            "general-notes-box"
+          ],
+          "regionVerdicts": {
+            "overdue-alert-bar": "drift",
+            "coupon-header-bar": "drift",
+            "lead-name-heading": "drift",
+            "verified-badge": "contradicted",
+            "primary-phone": "drift",
+            "secondary-phone": "drift",
+            "spec-grid-top": "drift",
+            "spec-grid-bottom": "drift",
+            "status-group": "drift",
+            "action-call": "drift",
+            "action-whatsapp": "drift",
+            "action-log-call": "drift",
+            "general-notes-box": "drift",
+            "timeline-heading": "drift",
+            "call-leg-04": "drift",
+            "call-leg-03": "drift",
+            "call-leg-02": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-11-23T16:22:55.606Z",
+          "score": 0.8097,
+          "worstIds": [
+            "spec-grid-bottom",
+            "verified-badge",
+            "primary-phone"
+          ],
+          "regionVerdicts": {
+            "overdue-alert-bar": "drift",
+            "coupon-header-bar": "drift",
+            "lead-name-heading": "drift",
+            "verified-badge": "contradicted",
+            "primary-phone": "drift",
+            "secondary-phone": "drift",
+            "spec-grid-top": "drift",
+            "spec-grid-bottom": "drift",
+            "status-group": "drift",
+            "action-call": "drift",
+            "action-whatsapp": "drift",
+            "action-log-call": "drift",
+            "general-notes-box": "drift",
+            "timeline-heading": "drift",
+            "call-leg-04": "drift",
+            "call-leg-03": "drift",
+            "call-leg-02": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-11-23T16:30:19.780Z",
+          "score": 0.8099,
+          "worstIds": [
+            "spec-grid-bottom",
+            "primary-phone",
+            "secondary-phone"
+          ],
+          "regionVerdicts": {
+            "overdue-alert-bar": "drift",
+            "coupon-header-bar": "drift",
+            "lead-name-heading": "drift",
+            "verified-badge": "drift",
+            "primary-phone": "drift",
+            "secondary-phone": "drift",
+            "spec-grid-top": "drift",
+            "spec-grid-bottom": "drift",
+            "status-group": "drift",
+            "action-call": "drift",
+            "action-whatsapp": "drift",
+            "action-log-call": "drift",
+            "general-notes-box": "drift",
+            "timeline-heading": "drift",
+            "call-leg-04": "drift",
+            "call-leg-03": "drift",
+            "call-leg-02": "drift"
+          },
+          "artifactHash": null
+        }
+      ]
+    },
+    "sections": {
+      "status": "closed",
+      "openedAt": "2026-11-23T16:30:19.780Z",
+      "closedAt": "2026-11-23T16:34:39.246Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-11-23T16:34:39.246Z"
+      },
+      "forced": null
+    },
+    "motion": {
+      "status": "closed",
+      "openedAt": "2026-11-23T16:34:39.246Z",
+      "closedAt": "2026-11-23T16:34:39.363Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-11-23T16:34:39.363Z"
+      },
+      "forced": null
+    },
+    "responsive": {
+      "status": "closed",
+      "openedAt": "2026-11-23T16:34:39.363Z",
+      "closedAt": "2026-11-23T16:36:46.025Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "desktop 82% (match)",
+        "score": 0.8154,
+        "sideBySide": "D:/front end dev/crm-/.impeccable/review/diff/desktop/side-by-side.png",
+        "at": "2026-11-23T16:36:46.024Z"
+      },
+      "forced": null
+    },
+    "review": {
+      "status": "closed",
+      "openedAt": "2026-11-23T16:36:46.025Z",
+      "closedAt": "2026-11-23T17:10:27.958Z",
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": {
+    "disposition": "ship",
+    "at": "2026-11-23T17:10:27.958Z",
+    "phaseAtFinish": "review"
+  },
+  "plates": {}
+}

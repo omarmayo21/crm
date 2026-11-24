@@ -1,0 +1,176 @@
+{
+  "title": "Choose the visual world for the Real Estate Call CRM",
+  "question": "The roll assigned Surveyor's Field Transit Ledger (with 2 challengers in the re-roll pool: variable-font-specimen, emigre-bitmap-specimen). Keep it, pick an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Surveyor's Field Transit Ledger",
+      "kicker": "THE ROLL",
+      "lineage": "Weatherproof buff surveyor field notebooks & brass transit logs",
+      "thesis": "An outdoor-grade real estate field notebook engineered for sunlight legibility and one-thumb call logging between showings.",
+      "palette": [
+        "#f4ebd0",
+        "#18221f",
+        "#c8281e",
+        "#1d5c42",
+        "#d9c89e"
+      ],
+      "materials": [
+        "waterproof buff ledger stock",
+        "stamped survey ink & brass rule lines"
+      ],
+      "viewport": "Mobile-first field cockpit: sticky red-flagged Overdue Follow-ups strip at top, live phone/duplicate search bar, and ruled lead dossier rows with huge one-tap Call, WhatsApp, and <10s Log Call controls.",
+      "risk": "Can feel overly rugged if spacing and tabular phone numerals are not kept razor-sharp.",
+      "raised": [
+        {
+          "from": "rw-timetable-slide-rack",
+          "raise": "State is a mark in a fixed cell: vermilion strikes overdue and no-answer calls, bottle green confirms answered and viewing-scheduled leads, and the active lead reverses onto a dark slate plate."
+        },
+        {
+          "from": "rw-centre-rail-reference-setting",
+          "raise": "Every grid rule, timeline detent, and call-to-follow-up bracket is drawn at 1px precision with zero ornamental radius."
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.png"
+    },
+    {
+      "id": "model-pick",
+      "label": "Brokerage Deal-Desk Call Sheet",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Brokerage daily call sheets, red-tabbed index cards & MLS tear-sheets",
+      "thesis": "The classic high-velocity brokerage call sheet where every lead is an indexed card with a stamped call timeline and red grease-pencil overdue tabs.",
+      "palette": [
+        "#faf6ee",
+        "#14181f",
+        "#d92d20",
+        "#0f6e56",
+        "#e6decb"
+      ],
+      "materials": [
+        "heavy manila index stock",
+        "red urgency tabs & tabular typewriter numerals"
+      ],
+      "viewport": "Split mobile/desk call ledger: Today's Follow-up queue pinned at top with red overdue badges, instant phone/duplicate checker, and a 3-tap inline Log Call drawer.",
+      "risk": "The most familiar grounded direction for a real estate call desk.",
+      "comp": ".impeccable/mocks/decision/model-pick.png"
+    },
+    {
+      "id": "vernacular-ephemera-jet-age-ticket-wallet",
+      "label": "Jet-Age Coupon Dossier",
+      "verdict": "competitive",
+      "lineage": "1960s airline ticket wallets, carbon-copy coupons & route tags",
+      "thesis": "Every lead and call follow-up is a perforated carbon-copy coupon stub in carrier navy and red over crisp coupon stock.",
+      "palette": [
+        "#ffffff",
+        "#112244",
+        "#d9232a",
+        "#4a2e7f"
+      ],
+      "materials": [
+        "perforated coupon stock",
+        "carbon-purple numerals & red stamped states"
+      ],
+      "viewport": "Stacked coupon book of Today's Follow-ups where logging a call stamps the coupon and tears off to advance the next callback.",
+      "case": "Fuses cleanly: fixed fare/flight boxes map naturally to budget, property type, phone numerals, and stamped call outcomes.",
+      "risk": "Reads like travel ephemera if real estate property fields and phone actions are not foregrounded.",
+      "comp": ".impeccable/mocks/decision/challenger-ticket-wallet.png",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-jet-age-ticket-wallet-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/vernacular-ephemera-jet-age-ticket-wallet.webp"
+    },
+    {
+      "id": "wayfinding-cartography-signage-terminal-yellow-wayfinding",
+      "label": "Terminal Wayfinding Dispatch",
+      "verdict": "competitive",
+      "lineage": "International airport overhead yellow signage & split-flap gate boards",
+      "thesis": "High-contrast Schiphol-yellow wayfinding bands and monumental phone numerals built for zero-squint mobile dialing on the move.",
+      "palette": [
+        "#f7c600",
+        "#111111",
+        "#ffffff",
+        "#d92323"
+      ],
+      "materials": [
+        "saturated yellow signage bands",
+        "black inset pictogram squares"
+      ],
+      "viewport": "Overhead yellow wayfinding band showing 'TODAY'S FOLLOW-UPS · 3 OVERDUE', monumental lead rows below, and black inset pictogram buttons for Call, WhatsApp, and Log Call.",
+      "case": "Unbeatable mobile glanceability for an agent walking between property showings.",
+      "risk": "Saturated yellow across long desk sessions can feel intense if not balanced with crisp white/black data rows.",
+      "comp": ".impeccable/mocks/decision/challenger-terminal-yellow.png",
+      "hero": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-terminal-yellow-wayfinding-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-terminal-yellow-wayfinding.webp"
+    },
+    {
+      "id": "rw-timetable-slide-rack",
+      "label": "Pocket Timetable Slide Rack",
+      "verdict": "declined",
+      "lineage": "1971 pocket airline timetable on a lit goldenrod bed",
+      "thesis": "Single-type-size schedule rack where rank is carried strictly by weight, case, reversal, and vermilion/green cell marks.",
+      "palette": [
+        "#e8b949",
+        "#1f2428",
+        "#fbf7ec",
+        "#c8281e",
+        "#1d5c42"
+      ],
+      "materials": [
+        "lit goldenrod bed",
+        "slate tinted glass & opaque ivory panes"
+      ],
+      "viewport": "Continuous schedule rack of callback slots with one reversed active lead plate.",
+      "case": "11-degree raked parallelogram containers fight one-handed mobile phone ergonomics.",
+      "kept": "Fixed-cell vermilion/bottle-green state marks and an opaque reversed plate for the active lead.",
+      "hero": "https://impeccable.style/worlds/cards/rw-timetable-slide-rack-hero.webp"
+    },
+    {
+      "id": "rw-centre-rail-reference-setting",
+      "label": "Centre-Rail Reference Setting",
+      "verdict": "declined",
+      "lineage": "Wide-margin reference editions with a vermilion centre key rail",
+      "thesis": "Two short-measure columns twinned around a 1px vermilion centre rail of call-history keys on unbleached bone.",
+      "palette": [
+        "#f2ece1",
+        "#141413",
+        "#c8281e"
+      ],
+      "materials": [
+        "unbleached bone paper",
+        "1px device-pixel ruling engine"
+      ],
+      "viewport": "Twinned lead-spec and call-history columns joined by a centre vermilion key rail.",
+      "case": "Wide four-inch literary margins waste precious mobile viewport width during live calls.",
+      "kept": "1px precision ruling engine with zero border-radius and square timeline detents.",
+      "hero": "https://impeccable.style/worlds/cards/rw-centre-rail-reference-setting-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "Clean modern mobile-first SaaS CRM executed with crisp typography, high-contrast status pills, and red overdue badges.",
+    "palette": [
+      "#ffffff",
+      "#0f172a",
+      "#2563eb",
+      "#dc2626",
+      "#16a34a"
+    ],
+    "materials": [
+      "clean hairline grid",
+      "tactile status pills & mobile action bar"
+    ],
+    "viewport": "Sticky search and Today's Follow-ups toggle at top, structured lead cards with instant Call/WhatsApp/Log Call buttons, and slide-up 10-second call logger.",
+    "risk": "Familiar modern CRM look, indistinguishable from top commercial tools by design.",
+    "comp": ".impeccable/mocks/decision/canon.png"
+  },
+  "steer": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "/",
+  "name": "Master Lead Coupon · Real Estate Sales Call CRM",
+  "short_name": "Call CRM",
+  "description": "Mobile-first real estate sales agent call-logging CRM with E.164 duplicate phone detection, sub-10-second call logger, and overdue follow-up queue.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f6f1",
+  "theme_color": "#0f2541",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

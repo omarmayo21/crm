@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-23T17:13:00Z",
+  "title": "Design System: Master Lead Coupon · Real Estate Sales Call CRM",
+  "extensions": {
+    "colorMeta": {
+      "carrier-navy": {
+        "role": "primary",
+        "displayName": "Carrier Navy",
+        "canonical": "#0f2541",
+        "tonalRamp": [
+          "oklch(18% 0.06 252)",
+          "oklch(26% 0.07 252)",
+          "oklch(35% 0.08 252)",
+          "oklch(46% 0.08 252)",
+          "oklch(58% 0.07 252)",
+          "oklch(71% 0.05 252)",
+          "oklch(84% 0.03 252)",
+          "oklch(94% 0.015 252)"
+        ]
+      },
+      "carrier-navy-deep": {
+        "role": "primary",
+        "displayName": "Carrier Navy Deep",
+        "canonical": "#0d1b3d",
+        "tonalRamp": [
+          "oklch(16% 0.07 260)",
+          "oklch(23% 0.08 260)",
+          "oklch(32% 0.09 260)",
+          "oklch(43% 0.09 260)",
+          "oklch(55% 0.08 260)",
+          "oklch(68% 0.06 260)",
+          "oklch(82% 0.035 260)",
+          "oklch(93% 0.015 260)"
+        ]
+      },
+      "jet-red": {
+        "role": "primary",
+        "displayName": "Jet Red",
+        "canonical": "#c61920",
+        "tonalRamp": [
+          "oklch(22% 0.09 27)",
+          "oklch(32% 0.14 27)",
+          "oklch(43% 0.18 27)",
+          "oklch(51% 0.21 27)",
+          "oklch(62% 0.18 27)",
+          "oklch(74% 0.13 27)",
+          "oklch(86% 0.07 27)",
+          "oklch(95% 0.025 27)"
+        ]
+      },
+      "jet-red-dark": {
+        "role": "primary",
+        "displayName": "Jet Red Dark",
+        "canonical": "#9b2429",
+        "tonalRamp": [
+          "oklch(20% 0.08 25)",
+          "oklch(29% 0.12 25)",
+          "oklch(39% 0.15 25)",
+          "oklch(45% 0.16 25)",
+          "oklch(57% 0.14 25)",
+          "oklch(70% 0.10 25)",
+          "oklch(83% 0.05 25)",
+          "oklch(94% 0.02 25)"
+        ]
+      },
+      "carbon-purple": {
+        "role": "secondary",
+        "displayName": "Carbon Purple",
+        "canonical": "#382866",
+        "tonalRamp": [
+          "oklch(20% 0.08 292)",
+          "oklch(28% 0.11 292)",
+          "oklch(35% 0.12 292)",
+          "oklch(46% 0.12 292)",
+          "oklch(58% 0.10 292)",
+          "oklch(71% 0.08 292)",
+          "oklch(84% 0.045 292)",
+          "oklch(94% 0.02 292)"
+        ]
+      },
+      "carbon-tissue": {
+        "role": "secondary",
+        "displayName": "Carbon Tissue",
+        "canonical": "#dcd3ec",
+        "tonalRamp": [
+          "oklch(24% 0.05 295)",
+          "oklch(35% 0.06 295)",
+          "oklch(47% 0.06 295)",
+          "oklch(59% 0.055 295)",
+          "oklch(71% 0.045 295)",
+          "oklch(81% 0.038 295)",
+          "oklch(88% 0.032 295)",
+          "oklch(95% 0.016 295)"
+        ]
+      },
+      "carbon-tissue-light": {
+        "role": "secondary",
+        "displayName": "Carbon Tissue Light",
+        "canonical": "#eae4f4",
+        "tonalRamp": [
+          "oklch(26% 0.04 295)",
+          "oklch(38% 0.045 295)",
+          "oklch(50% 0.045 295)",
+          "oklch(62% 0.04 295)",
+          "oklch(74% 0.035 295)",
+          "oklch(84% 0.028 295)",
+          "oklch(93% 0.022 295)",
+          "oklch(97% 0.01 295)"
+        ]
+      },
+      "carbon-rule": {
+        "role": "secondary",
+        "displayName": "Carbon Rule",
+        "canonical": "#291e3b",
+        "tonalRamp": [
+          "oklch(18% 0.05 294)",
+          "oklch(25% 0.06 294)",
+          "oklch(34% 0.06 294)",
+          "oklch(45% 0.06 294)",
+          "oklch(57% 0.05 294)",
+          "oklch(70% 0.04 294)",
+          "oklch(83% 0.025 294)",
+          "oklch(94% 0.012 294)"
+        ]
+      },
+      "verified-emerald": {
+        "role": "tertiary",
+        "displayName": "Verified Emerald",
+        "canonical": "#4d7c65",
+        "tonalRamp": [
+          "oklch(22% 0.05 160)",
+          "oklch(32% 0.06 160)",
+          "oklch(43% 0.07 160)",
+          "oklch(54% 0.075 160)",
+          "oklch(65% 0.07 160)",
+          "oklch(76% 0.055 160)",
+          "oklch(87% 0.035 160)",
+          "oklch(95% 0.015 160)"
+        ]
+      },
+      "mint-accent": {
+        "role": "tertiary",
+        "displayName": "Mint Accent",
+        "canonical": "#72a692",
+        "tonalRamp": [
+          "oklch(24% 0.05 164)",
+          "oklch(35% 0.06 164)",
+          "oklch(46% 0.07 164)",
+          "oklch(58% 0.07 164)",
+          "oklch(69% 0.065 164)",
+          "oklch(79% 0.05 164)",
+          "oklch(88% 0.03 164)",
+          "oklch(96% 0.015 164)"
+        ]
+      },
+      "coupon-white": {
+        "role": "neutral",
+        "displayName": "Coupon White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(20% 0 0)",
+          "oklch(32% 0 0)",
+          "oklch(45% 0 0)",
+          "oklch(58% 0 0)",
+          "oklch(71% 0 0)",
+          "oklch(83% 0 0)",
+          "oklch(93% 0 0)",
+          "oklch(100% 0 0)"
+        ]
+      },
+      "stock-white": {
+        "role": "neutral",
+        "displayName": "Stock White",
+        "canonical": "#f6f6f1",
+        "tonalRamp": [
+          "oklch(22% 0.01 105)",
+          "oklch(34% 0.01 105)",
+          "oklch(47% 0.01 105)",
+          "oklch(60% 0.01 105)",
+          "oklch(73% 0.01 105)",
+          "oklch(85% 0.01 105)",
+          "oklch(93% 0.008 105)",
+          "oklch(97.5% 0.006 105)"
+        ]
+      },
+      "cell-cream": {
+        "role": "neutral",
+        "displayName": "Cell Cream",
+        "canonical": "#f2f2ea",
+        "tonalRamp": [
+          "oklch(22% 0.012 105)",
+          "oklch(34% 0.012 105)",
+          "oklch(47% 0.012 105)",
+          "oklch(60% 0.012 105)",
+          "oklch(73% 0.012 105)",
+          "oklch(85% 0.012 105)",
+          "oklch(92% 0.01 105)",
+          "oklch(96% 0.009 105)"
+        ]
+      },
+      "ink-black": {
+        "role": "neutral",
+        "displayName": "Ink Black",
+        "canonical": "#0b0b0c",
+        "tonalRamp": [
+          "oklch(15% 0.004 285)",
+          "oklch(26% 0.004 285)",
+          "oklch(38% 0.004 285)",
+          "oklch(50% 0.004 285)",
+          "oklch(63% 0.004 285)",
+          "oklch(76% 0.003 285)",
+          "oklch(88% 0.002 285)",
+          "oklch(95% 0.001 285)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display · Lead Coupon Title",
+        "purpose": "Lead Name heading dominating the upper-left Master Lead Coupon."
+      },
+      "headline": {
+        "displayName": "Headline · Perforated Action Ticket",
+        "purpose": "Primary two-line perforated action ticket triggers (CALL TEL:, WHATSAPP, + LOG CALL)."
+      },
+      "title": {
+        "displayName": "Title · Dossier & Panel Header",
+        "purpose": "Coupon header bar, timeline section heading, and dispatch panel headers."
+      },
+      "body": {
+        "displayName": "Body · Monospace Telemetry & Notes",
+        "purpose": "Phone numbers, call-leg timestamps, feedback prose, and form controls."
+      },
+      "label": {
+        "displayName": "Label · Ticket Caption & Status Stamp",
+        "purpose": "Uppercase field captions, chamfered folder tab caps, and 9-status selector pills."
+      }
+    },
+    "shadows": [
+      {
+        "name": "master-coupon-contact",
+        "value": "0 0.25cqw 0.8cqw rgba(15, 37, 65, 0.08)",
+        "purpose": "Subtle navy-tinted paper contact shadow under the primary white Master Lead Coupon sheet."
+      },
+      {
+        "name": "call-leg-stub-contact",
+        "value": "0 0.2cqw 0.5cqw rgba(15, 37, 65, 0.05)",
+        "purpose": "Minimal paper elevation under individual barcode call-leg cards inside the lower wallet pocket."
+      },
+      {
+        "name": "dispatch-panel-elevation",
+        "value": "0 6px 18px rgba(15, 37, 65, 0.07)",
+        "purpose": "Grounded structural contact shadow under the inline Dispatch Wallet panel."
+      },
+      {
+        "name": "carbon-voucher-elevation",
+        "value": "0 6px 18px rgba(56, 40, 102, 0.1)",
+        "purpose": "Lavender-tinted contact shadow under the inline Carbon-Copy Voucher."
+      }
+    ],
+    "motion": [
+      {
+        "name": "scroll-into-view-smooth",
+        "value": "scroll-behavior: smooth",
+        "purpose": "Direct inline viewport focus transitions when tapping the overdue alert bar or perforated action tickets."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "outcome-grid-5col",
+        "value": "520px"
+      },
+      {
+        "name": "dispatch-split-dossier",
+        "value": "980px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Perforated Ticket Action Button (+ LOG CALL)",
+      "kind": "button",
+      "refersTo": "button-ticket-log",
+      "description": "Thumb-first perforated action ticket with 5 scalloped side punch-outs and stacked uppercase Barlow Condensed verbs.",
+      "html": "<button type=\"button\" class=\"ds-ticket-action-log\"><span class=\"ds-ticket-line1\">+ LOG CALL</span><span class=\"ds-ticket-line2\">(&lt;10S)</span></button>",
+      "css": ".ds-ticket-action-log { min-width: 148px; padding: 10px 14px; border-radius: 6px; border: 2px solid var(--jet-red-dark, #9b2429); background-color: var(--jet-red, #c61920); color: #f7f1f1; display: inline-flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; font-family: var(--font-display, 'Barlow Condensed', sans-serif); text-transform: uppercase; background-image: radial-gradient(circle at 0 18%, var(--stock-white, #f6f6f1) 5px, transparent 5.5px), radial-gradient(circle at 0 50%, var(--stock-white, #f6f6f1) 5px, transparent 5.5px), radial-gradient(circle at 0 82%, var(--stock-white, #f6f6f1) 5px, transparent 5.5px), radial-gradient(circle at 100% 18%, var(--stock-white, #f6f6f1) 5px, transparent 5.5px), radial-gradient(circle at 100% 50%, var(--stock-white, #f6f6f1) 5px, transparent 5.5px), radial-gradient(circle at 100% 82%, var(--stock-white, #f6f6f1) 5px, transparent 5.5px); transition: background-color 0.15s ease, transform 0.12s ease; } .ds-ticket-action-log:hover { background-color: var(--jet-red-dark, #9b2429); transform: translateY(-1px); } .ds-ticket-action-log:focus-visible { outline: 2px solid var(--carrier-navy, #0f2541); outline-offset: 2px; } .ds-ticket-line1 { font-size: 1.55rem; font-weight: 700; line-height: 0.96; letter-spacing: 0.01em; } .ds-ticket-line2 { font-size: 1.25rem; font-weight: 700; line-height: 1.02; letter-spacing: 0.01em; }"
+    },
+    {
+      "name": "Octagonal Primary Stamp Submit Button",
+      "kind": "button",
+      "refersTo": "button-stamp-submit",
+      "description": "Full-width 8-point chamfered stamp button used to commit a sub-10-second call leg or issue a new Master Lead Coupon.",
+      "html": "<button type=\"button\" class=\"ds-stamp-submit\">STAMP CALL LEG &amp; SAVE FOLLOW-UP</button>",
+      "css": ".ds-stamp-submit { width: 100%; padding: 14px 18px; background: var(--jet-red, #c61920); color: var(--coupon-white, #ffffff); border: none; font-family: var(--font-display, 'Barlow Condensed', sans-serif); font-size: 1.35rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0 calc(100% - 10px), 0 10px); transition: background-color 0.15s ease, transform 0.12s ease; } .ds-stamp-submit:hover { background: var(--jet-red-dark, #9b2429); } .ds-stamp-submit:active { transform: translateY(1px); } .ds-stamp-submit:focus-visible { outline: 2px solid var(--carrier-navy, #0f2541); outline-offset: 2px; }"
+    },
+    {
+      "name": "Quick Status Selector Pill",
+      "kind": "chip",
+      "refersTo": "chip-status",
+      "description": "High-contrast 9-status selector stamp pill with instant red active inversion.",
+      "html": "<div class=\"ds-status-strip\"><button type=\"button\" class=\"ds-status-pill\">NEW</button><button type=\"button\" class=\"ds-status-pill ds-active\">INTERESTED</button><button type=\"button\" class=\"ds-status-pill\">NEEDS FOLLOW-UP</button></div>",
+      "css": ".ds-status-strip { display: inline-flex; gap: 8px; flex-wrap: wrap; } .ds-status-pill { height: 32px; padding: 0 10px; border: 2px solid var(--carbon-rule, #291e3b); border-radius: 5px; background: var(--coupon-white, #ffffff); color: var(--ink-black, #0b0b0c); font-family: var(--font-display, 'Barlow Condensed', sans-serif); font-size: 1rem; font-weight: 700; letter-spacing: 0.025em; text-transform: uppercase; cursor: pointer; transition: background-color 0.12s ease, color 0.12s ease; } .ds-status-pill:hover { background: var(--cell-cream, #f2f2ea); } .ds-status-pill.ds-active { background: var(--jet-red, #c61920); border-color: var(--jet-red-dark, #9b2429); color: var(--coupon-white, #ffffff); } .ds-status-pill:focus-visible { outline: 2px solid var(--jet-red, #c61920); outline-offset: 2px; }"
+    },
+    {
+      "name": "Chamfered Folder Tab Bar",
+      "kind": "nav",
+      "refersTo": "button-ticket-call",
+      "description": "Top-chamfered index tab strip used in the Dispatch Wallet and Carbon-Copy Voucher headers.",
+      "html": "<div class=\"ds-tab-bar\"><button type=\"button\" class=\"ds-tab-btn ds-tab-active\">TODAY'S FOLLOW-UPS (4)</button><button type=\"button\" class=\"ds-tab-btn\">SEARCH &amp; ALL LEADS (6)</button><button type=\"button\" class=\"ds-tab-btn\">+ NEW LEAD / CHECK PHONE</button></div>",
+      "css": ".ds-tab-bar { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; background: var(--carrier-navy, #0f2541); padding: 8px 12px 0; } .ds-tab-btn { padding: 10px 8px; border: none; background: rgba(255, 255, 255, 0.14); color: #d9e2ec; font-family: var(--font-display, 'Barlow Condensed', sans-serif); font-size: 1rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; cursor: pointer; clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%, 0 10px); transition: background-color 0.15s ease, color 0.15s ease; } .ds-tab-btn:hover { background: rgba(255, 255, 255, 0.24); color: #ffffff; } .ds-tab-btn.ds-tab-active { background: var(--stock-white, #f6f6f1); color: var(--carrier-navy, #0f2541); } .ds-tab-btn:focus-visible { outline: 2px solid var(--jet-red, #c61920); outline-offset: -2px; }"
+    },
+    {
+      "name": "Duplicate-Guarded Monospace Coupon Input",
+      "kind": "input",
+      "refersTo": "input-coupon",
+      "description": "Square-cornered 1px carbon-ruled monospace input field for live duplicate phone detection and call feedback.",
+      "html": "<div class=\"ds-field-wrap\"><label class=\"ds-coupon-label\">PRIMARY PHONE NUMBER (LIVE DUPLICATE GUARD) *</label><input type=\"text\" class=\"ds-coupon-input\" value=\"+1 (212) 555-0194\" readonly /></div>",
+      "css": ".ds-field-wrap { display: flex; flex-direction: column; gap: 5px; } .ds-coupon-label { font-family: var(--font-mono, 'IBM Plex Mono', monospace); font-size: 0.75rem; font-weight: 700; color: var(--carbon-rule, #291e3b); text-transform: uppercase; } .ds-coupon-input { width: 100%; padding: 10px 12px; border: 1px solid var(--carbon-rule, #291e3b); border-radius: 0; background: var(--coupon-white, #ffffff); color: var(--ink-black, #0b0b0c); font-family: var(--font-mono, 'IBM Plex Mono', monospace); font-size: 0.9rem; font-weight: 600; caret-color: var(--jet-red, #c61920); } .ds-coupon-input:hover { border-color: var(--carrier-navy, #0f2541); } .ds-coupon-input:focus-visible { outline: 2px solid var(--jet-red, #c61920); outline-offset: 2px; }"
+    },
+    {
+      "name": "Call Leg Perforated Barcode Stub Card",
+      "kind": "card",
+      "refersTo": "card-master-coupon",
+      "description": "Perforated flight-leg call history card with left barcode tear stub, dotted notch divider, and newest-first monospace telemetry.",
+      "html": "<div class=\"ds-call-leg-card\"><div class=\"ds-barcode-stub\"><div class=\"ds-barcode-bars\"></div></div><div class=\"ds-call-leg-body\"><div class=\"ds-call-leg-header\">CALL LEG #04 · 23 NOV 14:20 · ANSWERED</div><div class=\"ds-call-leg-feedback\">Spoke 4m. Requested Tribeca penthouse floorplan &amp; comps.</div><div class=\"ds-call-leg-followup\">NEXT FOLLOW-UP: 23 NOV 16:30 (OVERDUE)</div></div></div>",
+      "css": ".ds-call-leg-card { background: var(--coupon-white, #ffffff); border: 1.5px solid #deded8; border-radius: 8px; display: grid; grid-template-columns: 64px 1fr; box-shadow: 0 2px 5px rgba(15, 37, 65, 0.05); overflow: hidden; } .ds-barcode-stub { position: relative; display: flex; align-items: center; justify-content: center; padding: 10px 12px; border-right: 3px dotted #c8c7cb; } .ds-barcode-Bars, .ds-barcode-bars { width: 100%; height: 54px; background: repeating-linear-gradient(to bottom, #0b0b0c 0px, #0b0b0c 3px, transparent 3px, transparent 5px, #0b0b0c 5px, #0b0b0c 6px, transparent 6px, transparent 9px, #0b0b0c 9px, #0b0b0c 13px, transparent 13px, transparent 15px); } .ds-call-leg-body { padding: 10px 14px; display: flex; flex-direction: column; gap: 4px; font-family: var(--font-mono, 'IBM Plex Mono', monospace); color: var(--ink-black, #0b0b0c); } .ds-call-leg-header { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; padding-bottom: 4px; border-bottom: 2px solid var(--carbon-rule, #291e3b); } .ds-call-leg-feedback { font-size: 0.82rem; font-weight: 500; } .ds-call-leg-followup { font-size: 0.82rem; font-weight: 700; text-transform: uppercase; }"
+    },
+    {
+      "name": "Priority Queue Coupon with Void-Red Hatch Strip",
+      "kind": "custom",
+      "refersTo": "card-carbon-voucher",
+      "description": "Priority follow-up ticket row featuring a numbered rank stub, tabular phone/budget specs, quick TEL/WA.ME/LOG actions, and a 14px Void-Red diagonal hatching strip.",
+      "html": "<div class=\"ds-queue-coupon\"><div class=\"ds-queue-stub\">01</div><div class=\"ds-queue-main\" tabindex=\"0\"><div class=\"ds-queue-top\"><strong class=\"ds-queue-name\">MARCUS VANCE</strong><span class=\"ds-queue-badge\">OVERDUE · 16:30</span></div><div class=\"ds-queue-telemetry\">+1 (212) 555-0194 · BUY · PENTHOUSE · TRIBECA · $4,200,000</div></div><div class=\"ds-queue-hatch\"></div></div>",
+      "css": ".ds-queue-coupon { display: grid; grid-template-columns: 52px 1fr 14px; border: 1px solid var(--jet-red, #c61920); background: #fffafa; overflow: hidden; } .ds-queue-stub { background: var(--jet-red, #c61920); color: #ffffff; display: flex; align-items: center; justify-content: center; font-family: var(--font-display, 'Barlow Condensed', sans-serif); font-weight: 800; font-size: 1.4rem; border-right: 1px dashed rgba(255, 255, 255, 0.45); } .ds-queue-main { padding: 10px 14px; cursor: pointer; transition: background-color 0.12s ease; } .ds-queue-main:hover { background: var(--cell-cream, #f2f2ea); } .ds-queue-main:focus-visible { outline: 2px solid var(--jet-red, #c61920); outline-offset: -2px; } .ds-queue-top { display: flex; align-items: center; gap: 8px; } .ds-queue-name { font-family: var(--font-display, 'Barlow Condensed', sans-serif); font-size: 1.25rem; color: var(--carrier-navy, #0f2541); text-transform: uppercase; } .ds-queue-badge { padding: 2px 8px; background: var(--jet-red, #c61920); color: #ffffff; font-family: var(--font-mono, 'IBM Plex Mono', monospace); font-size: 0.75rem; font-weight: 700; } .ds-queue-telemetry { margin-top: 4px; font-family: var(--font-mono, 'IBM Plex Mono', monospace); font-size: 0.84rem; font-weight: 700; color: var(--ink-black, #0b0b0c); } .ds-queue-hatch { width: 14px; border-left: 1px solid var(--jet-red, #c61920); background: repeating-linear-gradient(-45deg, #c61920 0px, #c61920 4px, #ffffff 4px, #ffffff 8px); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Jet-Age Coupon Dossier",
+    "overview": "Every real estate lead is treated as a perforated Master Lead Coupon inside a 1960s airline ticket wallet and telephone dispatch dossier. Rather than burying outbound sales calls, duplicate-phone checks, and follow-up schedules behind generic SaaS cards or modal dialogs, the system stamps every interaction directly onto numbered flight-leg stubs (CALL LEG #04, #03, #02), hairline-ruled specification cells, and carbon-copy lavender accounting vouchers.\n\nBuilt for high-velocity mobile and desk calling sessions, the visual language pairs high-impact condensed grotesque headers (Barlow Condensed) with strict tabular monospace telemetry (IBM Plex Mono) for phone numbers, budgets, and timestamps. Tactile paper engineering—scalloped side perforations, chamfered folder tab caps, security dot-matrix halftone headers, and diagonal void-red hatching strips—turns urgency and data integrity into immediate physical cues.",
+    "keyCharacteristics": [
+      "Perforated Ticket Mechanics: Scalloped radial punch-outs along coupon edges, dotted tear-off barcode stubs, and octagonal chamfered corners (clip-path: polygon(...)) replace soft modern containers.",
+      "Tri-Ink Ephemera Palette: Deep Carrier Navy (#0f2541), urgent Void/Jet Red (#c61920), and Carbon-Copy Purple (#382866) printed against warm archival paper stocks (#f6f6f1, #f2f2ea, #eae4f4).",
+      "Two-Voice Typographic Authority: All-caps Barlow Condensed (600–800 weight) for rapid visual scanning paired with IBM Plex Mono (tabular-nums) for phone normalization, budgets, and timestamped call legs.",
+      "Zero-Modal Inline Operations Deck: Every action—switching overdue leads, filtering the directory, checking duplicate phone numbers, editing WhatsApp templates, and logging a call in under 10 seconds—lives inline on the dossier surface."
+    ],
+    "rules": [
+      {
+        "name": "The Tri-Ink Separation Rule",
+        "body": "Carrier Navy (#0f2541), Carbon Purple (#382866), and Jet Red (#c61920) each own a distinct operational channel: Navy governs telephony and directory structure, Purple governs carbon-copy voucher capture and WhatsApp messaging, and Red governs overdue urgency, active status stamps, and call-leg submission. Never swap their channels.",
+        "section": "colors"
+      },
+      {
+        "name": "The Carbon Paper Contrast Rule",
+        "body": "Text inside tinted paper zones (#f2f2ea, #eae4f4, #dcd3ec) must use deep letterpress ink (#0b0b0c or #291e3b)—never mid-gray—preserving at least 10:1 contrast for field readability under bright ambient light.",
+        "section": "colors"
+      },
+      {
+        "name": "The All-Caps Structural Label Rule",
+        "body": "Every ticket field caption, status pill, chamfered tab cap, and action trigger is set in uppercase Barlow Condensed with positive tracking (0.025em–0.06em). Free-text call feedback and general notes remain natural sentence case in IBM Plex Mono so human observations separate immediately from pre-printed form structure.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Telemetry Rule",
+        "body": "All phone numbers, call-leg numbers (#04), timestamps (23 NOV 14:20), priority queue ranks (01), and currency budgets must render with font-variant-numeric: tabular-nums in IBM Plex Mono or Barlow Condensed so vertical columns scan without jitter.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper-On-Paper Rule",
+        "body": "Depth is communicated through paper stock contrast (#ffffff coupon on #f6f6f1 wallet canvas, #f2f2ea spec cells inside #291e3b rules, #eae4f4 carbon tissue inside #382866 borders) and physical edge perforations—never via blurred neon glows or heavy floating card shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use self-hosted Barlow Condensed (600–800 weight, uppercase) for all structural ticket labels, headers, status stamps, and action triggers, and IBM Plex Mono (tabular-nums) for all phone numbers, timestamps, and call-leg records.",
+      "Do preserve the 4 native ephemera devices across new views: Chamfered Index Tab Caps, Void Red Diagonal Hatching Strips (-45deg), Carbon-Copy Lavender Voucher Stock (#eae4f4 / #dcd3ec), and Security Dot-Matrix Halftone Headers (radial-gradient 6px × 6px).",
+      "Do keep all call logging, WhatsApp message editing, directory filtering, and duplicate-phone checking inline on the dossier canvas so agents complete call workflows in under 10 seconds without modal interruption.",
+      "Do normalize and cross-check every phone input against both primary and secondary numbers in real time, surfacing either the angled VERIFIED · NO DUPLICATE emerald stamp or the inline DUPLICATE WARNING recovery banner."
+    ],
+    "donts": [
+      "Don't introduce modal dialogs, popovers, or slide-over drawers that obscure the active Master Lead Coupon during live calls.",
+      "Don't use generic SaaS rounded cards (border-radius: 16px), soft blurred drop shadows, glassmorphism, or decorative sparklines/progress rings.",
+      "Don't set phone numbers, dates, or budgets in proportional sans-serif numerals without tabular-nums, or allow mid-gray low-contrast text on cream (#f2f2ea) or lavender (#eae4f4) paper surfaces.",
+      "Don't use thick colored border-left accent stripes on cards; signify overdue status with the numbered priority stub (#c61920) and the 14px right-hand Void Red diagonal hatching strip."
+    ]
+  }
+}

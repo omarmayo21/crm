@@ -1,0 +1,140 @@
+{
+  "regions": [
+    {
+      "id": "overdue-alert-bar",
+      "kind": "chrome",
+      "grid": "A0:J0",
+      "snap": false,
+      "box": { "x": 0.0, "y": 0.0, "w": 1.0, "h": 0.054 },
+      "note": "top red follow-ups alert bar"
+    },
+    {
+      "id": "coupon-header-bar",
+      "kind": "chrome",
+      "grid": "A0:J1",
+      "snap": false,
+      "box": { "x": 0.025, "y": 0.066, "w": 0.95, "h": 0.048 },
+      "note": "navy master lead coupon header bar"
+    },
+    {
+      "id": "lead-name-heading",
+      "kind": "text",
+      "grid": "A1:F1",
+      "snap": false,
+      "box": { "x": 0.06, "y": 0.120, "w": 0.53, "h": 0.064 },
+      "note": "lead name label and MARCUS VANCE headline"
+    },
+    {
+      "id": "verified-badge",
+      "kind": "control",
+      "grid": "G1:J1",
+      "snap": false,
+      "box": { "x": 0.61, "y": 0.130, "w": 0.34, "h": 0.054 },
+      "note": "angled bordered verification badge"
+    },
+    {
+      "id": "primary-phone",
+      "kind": "text",
+      "grid": "A1:E2",
+      "snap": false,
+      "box": { "x": 0.06, "y": 0.186, "w": 0.44, "h": 0.048 },
+      "note": "primary phone label and number"
+    },
+    {
+      "id": "secondary-phone",
+      "kind": "text",
+      "grid": "F1:J2",
+      "snap": false,
+      "box": { "x": 0.50, "y": 0.186, "w": 0.45, "h": 0.048 },
+      "note": "secondary phone label and number"
+    },
+    {
+      "id": "spec-grid-top",
+      "kind": "text",
+      "grid": "A2:J2",
+      "snap": false,
+      "box": { "x": 0.05, "y": 0.236, "w": 0.90, "h": 0.055 },
+      "note": "three-column spec row for source, request, and property type"
+    },
+    {
+      "id": "spec-grid-bottom",
+      "kind": "text",
+      "grid": "A2:J3",
+      "snap": false,
+      "box": { "x": 0.05, "y": 0.291, "w": 0.90, "h": 0.056 },
+      "note": "three-column spec row for area, budget, and added date"
+    },
+    {
+      "id": "status-group",
+      "kind": "control",
+      "grid": "A3:J4",
+      "snap": false,
+      "box": { "x": 0.05, "y": 0.350, "w": 0.90, "h": 0.112 },
+      "note": "lead status heading and nine status selector pills"
+    },
+    {
+      "id": "action-call",
+      "kind": "control",
+      "grid": "A4:D5",
+      "snap": false,
+      "box": { "x": 0.025, "y": 0.470, "w": 0.31, "h": 0.095 },
+      "note": "navy call tel action button"
+    },
+    {
+      "id": "action-whatsapp",
+      "kind": "control",
+      "grid": "D4:G5",
+      "snap": false,
+      "box": { "x": 0.345, "y": 0.470, "w": 0.31, "h": 0.095 },
+      "note": "purple whatsapp edit message action button"
+    },
+    {
+      "id": "action-log-call",
+      "kind": "control",
+      "grid": "G4:J5",
+      "snap": false,
+      "box": { "x": 0.665, "y": 0.470, "w": 0.31, "h": 0.095 },
+      "note": "red log call action button"
+    },
+    {
+      "id": "general-notes-box",
+      "kind": "text",
+      "grid": "A5:J6",
+      "snap": false,
+      "box": { "x": 0.05, "y": 0.578, "w": 0.90, "h": 0.112 },
+      "note": "bordered general notes header and paragraph block"
+    },
+    {
+      "id": "timeline-heading",
+      "kind": "text",
+      "grid": "A7:G7",
+      "snap": false,
+      "box": { "x": 0.05, "y": 0.698, "w": 0.62, "h": 0.030 },
+      "note": "call log and feedback timeline section title"
+    },
+    {
+      "id": "call-leg-04",
+      "kind": "text",
+      "grid": "A7:J8",
+      "snap": false,
+      "box": { "x": 0.05, "y": 0.730, "w": 0.90, "h": 0.112 },
+      "note": "call leg 04 timeline row with vertical stripe code and feedback text"
+    },
+    {
+      "id": "call-leg-03",
+      "kind": "text",
+      "grid": "A8:J9",
+      "snap": false,
+      "box": { "x": 0.05, "y": 0.848, "w": 0.90, "h": 0.088 },
+      "note": "call leg 03 timeline row with vertical stripe code and outcome"
+    },
+    {
+      "id": "call-leg-02",
+      "kind": "text",
+      "grid": "A9:J9",
+      "snap": false,
+      "box": { "x": 0.05, "y": 0.942, "w": 0.90, "h": 0.056 },
+      "note": "call leg 02 timeline row with vertical stripe code and outcome"
+    }
+  ]
+}
